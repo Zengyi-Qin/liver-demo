@@ -131,5 +131,4 @@ if __name__ == '__main__':
 
     for i in range(proj.shape[0]):
         cv2.imshow('img', proj[i])
-        cv2.imwrite(str(i).zfill(6)+'.png', proj[i])
         cv2.waitKey(100)
